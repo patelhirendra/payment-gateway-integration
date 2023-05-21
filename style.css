@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(15, 12, 33);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+nav a {
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+nav a:hover {
+    text-decoration: underline red;
+}
+
+nav img {
+    max-width: 10%;
+    max-height: 5%;
+    border-right: 3px solid red;
+}
+
+#rightnav {
+    margin-left: auto;
+    color: #ffcdc6;
+}
+
+#rightnav:hover {
+    text-decoration: none;
+}
+
+#heart {
+    font-size: large;
+}
+
+#rightnav:hover #heart {
+    color: red;
+    transition: color 0.8s;
+}
+
+.home {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2%;
+}
+
+img {
+    padding-left: 2%;
+}
+
+.about {
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline red;
+}
+
+h3 {
+    padding: 2%;
+}
+
+q {
+    color: rgb(201, 198, 198);
+    line-height: 2rem;
+    font-style: italic;
+}
+
+.wtf {
+    color: red;
+    font-size: x-large;
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: rgb(121, 107, 107);
+    background-color: rgb(1, 18, 56);
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .home {
+        display: block;
+        text-align: center;
+    }
+
+    .about {
+        margin: 15px 0;
+    }
+
+    footer {
+        position: static;
+    }
+}

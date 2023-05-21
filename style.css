@@ -102,12 +102,13 @@ footer {
         display: block;
         text-align: center;
     }
+    
+    .home img{
+        width: 100vw;
+    }
 
     .about {
         margin: 15px 0;
     }
 
-    footer {
-        position: static;
-    }
 }

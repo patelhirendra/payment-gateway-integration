@@ -3,7 +3,7 @@ Integration of a third-party payment gateway with multiple payment methods. Post
 
 
 ## Live Link 👇
-https://hi5hirendra.github.io/payment-gateway-integration
+https://patelhirendra.github.io/payment-gateway-integration
 
 
 ## Screenshots 👇
